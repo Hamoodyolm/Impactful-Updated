@@ -1,7 +1,7 @@
 {
   "required": true,
   "package": "dev.sirblambo.impactful.mixin",
-  "compatibilityLevel": "JAVA_21",
+  "compatibilityLevel": "JAVA_25",
   "client": [
     "MixinChatHud",
     "MixinClientPlayerEntity",
