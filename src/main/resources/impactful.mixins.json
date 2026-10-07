@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "dev.sirblambo.impactful.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinChatHud",
+    "MixinClientPlayerEntity",
+    "MixinClientPlayNetworkHandler",
+    "MixinClientPlayerInteractionManager",
+    "MixinDeathScreen",
+    "MixinGameRenderer",
+    "MixinMouseHandler",
+    "MixinPauseDucker",
+    "MixinPlayerEntity",
+    "MixinPlayerEntityRenderer",
+    "MixinPlayerListHud",
+    "MixinWorldRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS impactful_users (
+  id TEXT PRIMARY KEY,
+  last_seen INTEGER NOT NULL
+) WITHOUT ROWID;

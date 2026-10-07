@@ -1,0 +1,13 @@
+name = "impactful-presence"
+main = "worker.js"
+compatibility_date = "2026-09-01"
+account_id = "REPLACE_WITH_NEW_ACCOUNT_ID"
+workers_dev = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "impactful-presence"
+database_id = "REPLACE_WITH_DATABASE_ID"
+
+[triggers]
+crons = ["17 4 * * *"]

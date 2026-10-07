@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "impactful",
+  "version": "${version}",
+  "name": "Impactful",
+  "description": "Mace Visuals",
+  "authors": [
+    "SirblAmbo"
+  ],
+  "icon": "assets/impactful/icon.png",
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "dev.sirblambo.impactful.ImpactfulMod"
+    ],
+    "client": [
+      "dev.sirblambo.impactful.client.ImpactfulClient"
+    ],
+    "modmenu": [
+      "dev.sirblambo.impactful.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "impactful.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11",
+    "modmenu": "*"
+  }
+}
